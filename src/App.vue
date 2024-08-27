@@ -6,6 +6,12 @@ import Footer from './components/Footer.vue'
 import Guitarra from './components/Guitarra.vue'
 
 const guitarras = ref([])
+const carrito = ref([])
+
+const agregarCarrito = (guitarra) => {
+  guitarra.cantidad = 1
+  carrito.value.push(guitarra)
+}
 
 onMounted(() => {
   guitarras.value = db
@@ -21,6 +27,7 @@ onMounted(() => {
       <Guitarra
           v-for="guitarra in guitarras"
           :guitarra="guitarra"
+          @agregar-carrito="agregarCarrito(guitarra)"
       />
     </div>
   </main>
