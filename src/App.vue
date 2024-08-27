@@ -1,5 +1,5 @@
 <script setup>
-import {ref, reactive, onMounted} from 'vue'
+import {ref, onMounted} from 'vue'
 import {db} from './data/guitarras'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
