@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
     <footer class="bg-dark mt-5 py-5">
         <div class="container-xl">
@@ -9,7 +5,3 @@
         </div>
     </footer>
 </template>
-
-<style lang="scss" scoped>
-
-</style>

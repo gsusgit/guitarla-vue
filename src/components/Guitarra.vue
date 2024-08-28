@@ -14,9 +14,9 @@
     <div class="col-md-6 col-lg-4 my-4 row align-items-center">
                 <div class="col-4">
                     <img 
-                        class="img-fluid" 
-                        :src="'/img/' + guitarra.imagen + '.jpg'" 
-                        :alt="guitarra.nombre"
+                        class="img-fluid"
+                        :src="'/img/' + guitarra.imagen + '.jpg'"
+                        :alt="'imagen guitarra' + guitarra.nombre"
                     >
                 </div>
                 <div class="col-8">
